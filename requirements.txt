@@ -1,2 +1,12 @@
+altgraph==0.17.5
+Nuitka==4.0.8
+ordered-set==4.1.0
+packaging==26.1
+pefile==2024.8.26
+pyinstaller==6.19.0
+pyinstaller-hooks-contrib==2026.4
 pynput==1.8.1
+pywin32-ctypes==0.2.3
+setuptools==82.0.1
 six==1.17.0
+zstandard==0.25.0
