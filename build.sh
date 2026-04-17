@@ -12,8 +12,8 @@ python -m nuitka \
     --windows-icon-from-ico=icon.ico \
     --company-name=PotatoClicker \
     --product-name=PotatoClicker \
-    --file-version=1.0.0.0 \
-    --product-version=1.0.0.0 \
+    --file-version=1.1.0.0 \
+    --product-version=1.1.0.0 \
     --file-description="PotatoClicker auto-clicker" \
     --output-filename=PotatoClicker.exe \
     --output-dir=dist \

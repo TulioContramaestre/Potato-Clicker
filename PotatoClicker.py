@@ -5,6 +5,7 @@ import tkinter as tk
 from tkinter import ttk
 from pynput.mouse import Button, Controller
 from pynput.keyboard import Listener, KeyCode
+from _single_instance import acquire_or_focus_existing
 
 
 BUTTON_CHOICES = {
@@ -283,6 +284,8 @@ class AutoClickerUI(tk.Tk):
 
 
 def main():
+    if not acquire_or_focus_existing():
+        return
     app = AutoClickerUI()
     app.mainloop()
 
